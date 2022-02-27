@@ -1,12 +1,68 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aprendendo HTML</title>
+  </head>
+
+  <!--Tag Body é onde ficam todos os elementos principais de textos que estarão o conteúdo da página -->
+  <body>
     
-</body>
+    <!-- Tag h1, h2, h3 e etc. são os títulos da página do HTML, por eles, podemos marcar quais os títulos e, assim, definir estilos próprios para cada títulos. -->
+    <h1>Aprendizados</h1>
+    <h2>Meu aprendizado começa aqui e agora!</h2>
+    
+    <!-- Tag "p" é a Tag de parágrafo. É nela que estarão o corpo do conteúdo.
+         Tag "strong" é a que define qual texto ficará em negrito;
+         Tag "br" é a tag que podemos dar uma quebra no texto -->
+    <p>
+      <em>Hoje eu começo minha jornada na Trybe!</em> <br />
+      <strong>muito esforço e apoio </strong> vou me tornar uma pessoa
+      desenvolvedora muito capaz!
+    </p>
+
+    <!--Tag "ol" é a tag que podemos fazer listas ordenadas (OrderedLists)
+        Tag "ul" é a tag que podemos fazer listas não ordenadas (unordered list)
+        Tag "li" são os itens das listas acima referidas-->
+    
+    <!--Tag "a" é onde colocaremos o nosso href que fará referência a um link interno ou externo dentro da nossa página-->
+        <ol>
+      <li><a href=#CSS>CSS</a></li>
+      <li>Posicionamento em CDD</li>
+      <li>HYML Semântico</li>
+      <li>JavaScript</li>
+      <li>DOM</li>
+      <li><a href="#FlexBox">FlexBox</a></li>
+    </ol>
+
+    <!--Tag "Id" é onde definiremos o nome do nosso id para àquela parte do HTML a que queremos nos referir, por exemplo, na hora de colocar um link interno dentro da página-->
+    <p id="CSS">
+      Conteúdo sobre CSS Conteúdo sobre CSS Conteúdo sobre CSS Conteúdo sobre CSS Conteúdo sobre CSS Conteúdo sobre CSS Conteúdo sobre CSS Conteúdo sobre CSSConteúdo sobre CSS Conteúdo sobre CSS Conteúdo sobre CSS Conteúdo sobre CSS Conteúdo sobre CSS Conteúdo sobre CSS Conteúdo sobre CSS Conteúdo sobre CSS Conteúdo sobre CSS Conteúdo sobre CSS Conteúdo sobre CSS Conteúdo sobre CSS Conteúdo sobre CSS Conteúdo sobre CSS Conteúdo sobre CSS Conteúdo sobre CSS Conteúdo sobre CSS Conteúdo sobre CSS Conteúdo sobre CSS Conteúdo sobre CSS Conteúdo sobre CSS Conteúdo sobre CSS Conteúdo sobre CSS Conteúdo sobre CSS
+    </p>
+
+    <p id="FlexBox">
+      Conteúdo sobre FlexBox Conteúdo sobre FlexBox Conteúdo sobre FlexBox Conteúdo sobre FlexBox Conteúdo sobre FlexBox Conteúdo sobre FlexBox Conteúdo sobre FlexBoxConteúdo sobre FlexBox Conteúdo sobre FlexBox Conteúdo sobre FlexBox Conteúdo sobre FlexBox Conteúdo sobre FlexBox Conteúdo sobre FlexBox Conteúdo sobre FlexBox Conteúdo sobre FlexBox Conteúdo sobre FlexBox Conteúdo sobre FlexBox Conteúdo sobre FlexBox Conteúdo sobre FlexBoxConteúdo sobre FlexBox Conteúdo sobre FlexBox Conteúdo sobre FlexBox Conteúdo sobre FlexBox Conteúdo sobre FlexBoxConteúdo sobre FlexBoxConteúdo sobre FlexBoxConteúdo sobre FlexBox Conteúdo sobre FlexBox Conteúdo sobre FlexBoxConteúdo sobre FlexBox
+    </p>
+
+    <!--Tag "target" - Para links externos, o interessante é colocar a tag target=_blank pois, assim, ao clicarmos, seremos redirecionado para o conteúdo por meio de uma página em branco e, desta forma, não fecharemos a página que estamos olhando -->
+
+    <p><a href="https://www.betrybe.com/" target="_blank">Trybe</a></p>
+
+    <!--Tag "img" é a tag que podemos colocar imagens dentro do nosso arquivo HTML
+        "src" - É nela que colocaremos ou a URL da imagem ou o caminho da imagem dentro do nosso diretório
+        "width" - É onde definiremos o tamanho da imagem é pixels. 'Width' significa largura
+        "alt" - Uma boa prática é colocarmos a tag 'alt' pois nela poderemos colocar a descrição da imagem para que pessoas cegas possam "enxergar"-->
+    <img
+      src="https://assets-global.website-files.com/61549abf6fb9ca5e91bc5709/61549abf6fb9ca1819bc574b_Group%2015.png"
+      width="300px"
+    />
+
+    <img
+      src="Minha foto de perfil.jpg"
+      width="300px"
+      alt="Minha foto de Perfil"
+    />
+  </body>
 </html>
