@@ -1,0 +1,47 @@
+* {
+    margin: 1,5;
+}
+
+h1 {
+    background-color: whitesmoke;
+}
+
+h2 {
+    color: rgb(35, 72, 36);
+    font-size: 1.5em;
+}
+
+body {
+    background-color: rgb(156, 194, 177);
+    font-size: 18px;
+
+}
+
+#meu_aprendizado {
+    background-color: red
+}
+
+article h3 {
+    background-color: blue;
+    color: white;
+}
+
+.CSS_description {
+    background-color: green;
+    color: white;
+    font-style: italic;
+}
+
+.flexBox_description {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 22px;
+    text-align: justify;
+    text-decoration: underline;
+}
+
